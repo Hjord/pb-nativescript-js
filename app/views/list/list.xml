@@ -1,0 +1,7 @@
+<Page loaded="loaded">
+    <ListView items="{{ menuItems }}" itemTap="listviewItemTap">
+        <ListView.itemTemplate>
+            <Label text="{{name}}" />
+        </ListView.itemTemplate>
+    </ListView>
+</Page>
